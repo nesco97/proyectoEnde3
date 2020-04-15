@@ -28,6 +28,10 @@ public class Usuario extends Persona{
         +" tiene "+edad+" años");
     }
     
+    public String toString(){
+        return "El usuario: "+this.nombre+" "+this.APELL+" con id: "+this.id
+        +" tiene "+edad+" años";
+    }
 
 }
 
