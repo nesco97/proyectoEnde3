@@ -24,12 +24,12 @@ public class Usuario extends Persona{
     
     //@Override
     public void getInfo() {
-        System.out.print("El usuario: "+this.nombre+" "+this.APELL+" con id: "+this.id
+        System.out.print("El usuario: "+this.nombre+" "+this.apellidos+" con id: "+this.id
         +" tiene "+edad+" años");
     }
     
     public String toString(){
-        return "El usuario: "+this.nombre+" "+this.APELL+" con id: "+this.id
+        return "El usuario: "+this.nombre+" "+this.apellidos+" con id: "+this.id
         +" tiene "+edad+" años";
     }
 

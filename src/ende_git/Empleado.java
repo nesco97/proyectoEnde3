@@ -42,7 +42,7 @@ public class Empleado extends Persona {
     //@Override
     public void getInfo() {
         System.out.println("Nombre "+this.nombre+ ", apellidos "+
-         this.APELL+", id: "+this.id+" contraseña: " +this.contrasena);
+         this.apellidos+", id: "+this.id+" contraseña: " +this.contrasena);
     }
     
     

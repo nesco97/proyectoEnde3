@@ -7,12 +7,12 @@ package refactorizacion3;
 abstract public class  Persona {
     protected short id;
     public String nombre;
-    public String APELL;
+    public String apellidos;
 
     public Persona(short id, String nombre, String apellidos) {
         this.id = id;
         this.nombre = nombre;
-        this.APELL = apellidos;
+        this.apellidos = apellidos;
     }
 
     public short getId() {
