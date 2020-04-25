@@ -45,12 +45,6 @@ public class Deportes {
                 "\n Zona: " +this.zona ;
     }
     
-        public void getInfo(){
-        System.out.println( "Nombre: "+this.NOM+ 
-                " \n Número jugadores: "+this.nJ+
-                "\n Número de horas: "+this.nH+
-                "\n Material: "+ this.material+
-                "\n Zona: " +this.zona) ;
-    }
+
     
 }
