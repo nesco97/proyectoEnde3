@@ -13,7 +13,7 @@ public class Usuario extends Persona{
         this.edad = edad;
         contUsuarios++;
     }
-
+    //Metodo para devolver edad
     public byte getEdad() {
         return edad;
     }
